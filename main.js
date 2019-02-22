@@ -67,8 +67,8 @@ function getLocation() {
 
       
       
-      L.marker([3.5011634999999997,-76.29890879999999 ]).addTo(map)
-      L.marker([lat,long ]).addTo(map)
+      L.marker([3.5011634999999997,-76.29890879999999 ]).addTo(map).bindPopup('Estas Aquí').openPopup();
+      L.marker([lat,long ]).addTo(map).bindPopup('Scharss').openPopup();
       
       //L.marker([lat, long ], {icon: redIcon}).addTo(map)
       //.bindPopup('Estas Aquí')
